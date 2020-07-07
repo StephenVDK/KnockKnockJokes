@@ -1,9 +1,9 @@
 <html>
 	<body>
 		<p>Talk to JokeBot!</p>
-		<form>
-			<p><input name="userRequest" /></p>
-			<p><input type="submit" value="Send to JokeBot" /></p>
+		<form action=/views.py>
+			<p><input type="text" id="userRequest"/></p>
+			<output name="joke" for="userRequest"></output>
 		</form>
 	</body>
 </html>
